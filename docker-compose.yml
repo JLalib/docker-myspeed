@@ -5,7 +5,7 @@ services:
     ports:
       - "5216:5216"
     volumes:
-      - .\myspeed:/myspeed/data
+      - ./myspeed:/myspeed/data
     restart: unless-stopped
     container_name: myspeed
 volumes:
